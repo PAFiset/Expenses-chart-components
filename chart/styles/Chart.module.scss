@@ -1,0 +1,106 @@
+.Chart{
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+
+  .last_7_days{
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  hr{
+    border: 2px solid gainsboro;
+    margin-top: 40px;
+  }
+
+    
+  .statistics{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 30px;
+
+    
+    .data{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 100%;
+      width: 40px;
+      text-align: center;
+      
+      .data_block{
+        background-color: coral;
+        border-radius: 10px;
+        max-width: 100px;
+      }
+
+      .mon{
+        height: 50px;
+      }
+      
+      .tue{
+        height: 100px;
+      }
+      
+      .wed{
+        background-color: darkturquoise;
+        height:150px;
+      }
+      
+      .thu{
+        height: 80px;
+      }
+      
+      .fri{
+        height: 60px;
+      }
+      
+      .sat{
+        height: 120px;
+      }
+      
+      .sun{
+        height: 70px;
+      }
+
+    }
+
+  }
+
+  .month{
+    display: flex;
+    margin-top: 20px;
+    align-items: end;
+    
+    .month_data{
+
+      .month_total{
+        font-weight:700;
+        font-size: 30px;
+      }
+    }
+
+    .profit_margin{
+      margin-left:auto;
+      text-align:end;
+      .percentage{
+        font-weight: 700;
+      }
+
+    }
+
+  }
+
+}
+
+
